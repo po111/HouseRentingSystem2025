@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\HouseRentingSystem2025.Infrastructure\HouseRentingSystem2025.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

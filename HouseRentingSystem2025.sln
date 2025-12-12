@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HouseRentingSystem2025", "H
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem2025.Core", "HouseRentingSystem.Core\HouseRentingSystem2025.Core.csproj", "{A54572B8-AAB0-457F-AF94-FEA4C16390E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem2025.Infrastructure", "HouseRentingSystem2025.Infrastructure\HouseRentingSystem2025.Infrastructure.csproj", "{719A4ABD-CD90-4B17-A0D1-00C6927914E4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRentingSystem2025.Infrastructure", "HouseRentingSystem2025.Infrastructure\HouseRentingSystem2025.Infrastructure.csproj", "{D156560B-EA32-46DA-A74F-BF15BD043668}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{A54572B8-AAB0-457F-AF94-FEA4C16390E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A54572B8-AAB0-457F-AF94-FEA4C16390E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A54572B8-AAB0-457F-AF94-FEA4C16390E8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{719A4ABD-CD90-4B17-A0D1-00C6927914E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{719A4ABD-CD90-4B17-A0D1-00C6927914E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{719A4ABD-CD90-4B17-A0D1-00C6927914E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{719A4ABD-CD90-4B17-A0D1-00C6927914E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D156560B-EA32-46DA-A74F-BF15BD043668}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D156560B-EA32-46DA-A74F-BF15BD043668}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D156560B-EA32-46DA-A74F-BF15BD043668}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D156560B-EA32-46DA-A74F-BF15BD043668}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
