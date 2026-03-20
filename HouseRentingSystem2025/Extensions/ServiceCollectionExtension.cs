@@ -1,5 +1,5 @@
-﻿using HouseRentingSystem2025.Core.Contracts.House;
-using HouseRentingSystem2025.Core.Services.House;
+﻿using HouseRentingSystem2025.Core.Contracts;
+using HouseRentingSystem2025.Core.Services;
 using HouseRentingSystem2025.Infrastructure.Data;
 using HouseRentingSystem2025.Infrastructure.Data.Common;
 using Microsoft.AspNetCore.Identity;

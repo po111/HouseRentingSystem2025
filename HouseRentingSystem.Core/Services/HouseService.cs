@@ -1,10 +1,11 @@
-﻿using HouseRentingSystem2025.Core.Contracts.House;
+﻿using HouseRentingSystem2025.Core.Contracts;
 using HouseRentingSystem2025.Core.Models.Home;
 using HouseRentingSystem2025.Infrastructure.Data.Common;
+using HouseRentingSystem2025.Infrastructure.Data.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Cryptography.X509Certificates;
 
-namespace HouseRentingSystem2025.Core.Services.House
+namespace HouseRentingSystem2025.Core.Services
 {
     public class HouseService : IHouseService
     {
@@ -17,7 +18,7 @@ namespace HouseRentingSystem2025.Core.Services.House
         public async Task<IEnumerable<HouseIndexServiceModel>> LastThreeHouses()
         {
             return await repository
-                .AllReadOnly<Infrastructure.Data.Models.House>()
+                .AllReadOnly<House>()
                 .OrderByDescending(h => h.Id)
                 .Take(3)
                 .Select(h => new HouseIndexServiceModel()

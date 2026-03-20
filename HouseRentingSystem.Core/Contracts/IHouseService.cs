@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HouseRentingSystem2025.Core.Contracts.House
+namespace HouseRentingSystem2025.Core.Contracts
 {
     public interface IHouseService
     {
