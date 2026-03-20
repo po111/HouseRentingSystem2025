@@ -7,8 +7,7 @@ using System.Runtime.CompilerServices;
 namespace HouseRentingSystem2025.Controllers
 {
 
-    [Authorize]
-    public class HouseController : Controller
+    public class HouseController : BaseController
     {
         [AllowAnonymous]
         [HttpGet]
