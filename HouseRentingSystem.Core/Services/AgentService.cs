@@ -1,5 +1,8 @@
 ﻿using HouseRentingSystem2025.Core.Contracts;
 using HouseRentingSystem2025.Infrastructure.Data;
+using HouseRentingSystem2025.Infrastructure.Data.Common;
+using HouseRentingSystem2025.Infrastructure.Data.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,8 +14,30 @@ namespace HouseRentingSystem2025.Core.Services
     public class AgentService : IAgentService
     {
 
-        private readonly HouseRentingDbContext 
-        public Task<bool> existById(string userId)
+        private readonly IRepository repository;
+
+        public AgentService(IRepository _repository)
+        {
+           repository = _repository;         
+        }
+
+        public Task CreateAsync(string userId, string phoneNumber)
+        {
+            throw new NotImplementedException();
+        }
+
+        public async Task<bool> existByIdAsync(string userId)
+        {
+            return await repository.AllReadOnly<Agent>()
+                .AnyAsync(a => a.UserId == userId);
+        }
+
+        public Task<bool> UserHasRentsAsync(string userId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<bool> UserWithPhoneNumberExistsAsync(string phoneNumber)
         {
             throw new NotImplementedException();
         }

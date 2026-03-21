@@ -1,13 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace HouseRentingSystem2025.Core.Contracts
+﻿namespace HouseRentingSystem2025.Core.Contracts
 {
     public interface IAgentService
     {
-        Task<bool> existById(string userId);
+        Task<bool> existByIdAsync(string userId);
+
+        Task<bool> UserWithPhoneNumberExistsAsync(string phoneNumber);
+
+        Task<bool> UserHasRentsAsync(string userId);
+
+        Task CreateAsync(string userId, string phoneNumber);
     }
 }
