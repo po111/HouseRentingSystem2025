@@ -1,8 +1,7 @@
 ﻿using HouseRentingSystem2025.Core.Contracts;
 using HouseRentingSystem2025.Core.Models.Agent;
-using HouseRentingSystem2025.Extensions;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace HouseRentingSystem2025.Controllers
 {

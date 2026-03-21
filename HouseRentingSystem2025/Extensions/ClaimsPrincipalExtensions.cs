@@ -1,7 +1,6 @@
-﻿using Microsoft.CodeAnalysis.CSharp.Syntax;
-using System.Security.Claims;
+﻿
+namespace System.Security.Claims;
 
-namespace HouseRentingSystem2025.Extensions
 {
     public static class ClaimsPrincipalExtensions
     {
