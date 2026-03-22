@@ -29,6 +29,9 @@ namespace HouseRentingSystem2025.Controllers
         [HttpPost]
         public async Task<IActionResult> Become (BecomeAgentFormModel agent)
         {
+            
+
+
             return RedirectToAction(nameof(HouseController.All), "House");
         }
     }
