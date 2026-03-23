@@ -2,7 +2,7 @@
 {
     public interface IAgentService
     {
-        Task<bool> existByIdAsync(string userId);
+        Task<bool> ExistByIdAsync(string userId);
 
         Task<bool> UserWithPhoneNumberExistsAsync(string phoneNumber);
 
