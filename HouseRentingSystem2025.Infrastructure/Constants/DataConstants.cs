@@ -19,15 +19,12 @@ namespace HouseRentingSystem2025.Infrastructure.Constants
         public const int HouseDescriptionMinLength = 50;
         public const int HouseDescriptionMaxLength = 500;
 
-        public const string HousePriceMinNumber = "0.00";
-        public const string HousePriceMaxNumber = "2000.00";
+        public const string HousePriceMinNumber = "0";
+        public const string HousePriceMaxNumber = "2000";
 
         public const int AgentPhoneMinLength = 7;
         public const int AgentPhoneMaxLength = 15;
 
-
-
-
-
+        
     }
 }
